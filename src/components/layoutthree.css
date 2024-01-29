@@ -42,27 +42,27 @@
 }
 
 .images {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    gap: 5px;
+    gap: 16px;
 }
 
 .images-one {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
-    
+    align-items: flex-end;
     gap: 16px;
 }
 
 .images-two {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     gap: 16px;
     display: flex;
    
-
+align-items: flex-start;
 
 }
 

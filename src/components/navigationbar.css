@@ -10,6 +10,7 @@
     background: var(--Gray-100, #F2F4F7);
     margin-bottom: 40px;
     /* margin: 128px; */
+    z-index: 2;
     
     
 }

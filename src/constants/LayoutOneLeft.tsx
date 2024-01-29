@@ -50,7 +50,7 @@ import "./layoutoneleft.css";
 
 const LayoutOneLeft: React.FC = () => {
   return (
-    <div>
+   
       <div className="layout-one-left-wrapper">
         <div className="header-text">
           <h1 className="layeroneleft-header">
@@ -85,7 +85,7 @@ const LayoutOneLeft: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+
   );
 };
 

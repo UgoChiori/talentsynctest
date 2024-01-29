@@ -3,21 +3,22 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    
     width: 1408px;
     justify-content: space-between;
     align-items: center;
     margin-top: 160px;
     gap: 30px;
     margin: 128px;
+    margin-top: 40px;
+  
 }
 
 .layout-one-first-container {
     /* border: 1px solid black; */
     display: flex;
-    
-    background:  rgba(255, 255, 255, 0.5) url('/images/Row.png') repeat center center ;
-    background-size: contain; 
+    position: relative;
+    /* background:  rgba(255, 255, 255, 0.5) url('/images/Row.png') repeat center center ;
+    background-size: contain;  */
     justify-content: space-between;
     
 }
