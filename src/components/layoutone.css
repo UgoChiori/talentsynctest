@@ -10,15 +10,23 @@
     gap: 30px;
     margin: 128px;
     margin-top: 40px;
-  
+
 }
 
 .layout-one-first-container {
-    /* border: 1px solid black; */
+   
     display: flex;
     position: relative;
-    /* background:  rgba(255, 255, 255, 0.5) url('/images/Row.png') repeat center center ;
-    background-size: contain;  */
+   
     justify-content: space-between;
-    
+
+}
+
+.layout-one-container{
+position: absolute;
+width: 704px;
+height: 720px;
+background-image: url("/images/Rows.png");
+z-index: 1;
+top: -40px;
 }

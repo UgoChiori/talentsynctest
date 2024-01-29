@@ -37,12 +37,24 @@ const Avatar: React.FC = () => {
         />
       </div>
       <div className="icon-wrapper">
-        <span className="icon-circle"><img src="/images/microphone.svg" alt="avatar" width="24px" /></span>
-        <span className="icon-circle"><img src="/images/video-camera.svg" alt="avatar" /></span>
-        <span className="icon-circle"><img src="/images/monitor.svg" alt="avatar" /></span>
-        <span className="icon-circle"><img src="/images/face-smile.svg" alt="avatar" /></span>
-        <span className="icon-circle"><img src="/images/message-text-circle.svg" alt="avatar" /></span>
-        <span className="icon-circle"><img src="/images/settings.svg" alt="avatar" /></span>
+        <span className="icon-circle">
+          <img src="/images/microphone.svg" alt="avatar" width="24px" />
+        </span>
+        <span className="icon-circle">
+          <img src="/images/video-camera.svg" alt="avatar" />
+        </span>
+        <span className="icon-circle">
+          <img src="/images/monitor.svg" alt="avatar" />
+        </span>
+        <span className="icon-circle">
+          <img src="/images/face-smile.svg" alt="avatar" />
+        </span>
+        <span className="icon-circle">
+          <img src="/images/message-text-circle.svg" alt="avatar" />
+        </span>
+        <span className="icon-circle">
+          <img src="/images/settings.svg" alt="avatar" />
+        </span>
       </div>
     </div>
   );

@@ -1,7 +1,9 @@
 import React from "react";
 import "./layoutfive.css";
 
-const LayoutFive: React.FC = () => {
+interface LayoutFiveProps {}
+
+const LayoutFive: React.FC<LayoutFiveProps> = ()=> {
   return (
     <div className="layoutfive-wrapper">
       <div className="layoutfive-container">
