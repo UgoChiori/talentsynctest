@@ -1,0 +1,20 @@
+.layoutfooter-wrapper{
+    width: 1408px;
+    margin: 128px;
+}
+.layoutfooter-header{
+    align-self: stretch;
+    color: #475467;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 48px;
+}
+.layout-span{
+    display: flex;
+    align-items: center;
+    gap: 69px;
+}

@@ -1,0 +1,137 @@
+.footer-wrapper {
+
+  width: 1408px;
+  /* Add max-width for responsiveness */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 96px 0 48px;
+  align-self: stretch;
+  margin: 128px;
+}
+
+.footer-container {
+
+  width: 100%;
+  /* height: auto; */
+  /* Adjust height based on content */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+
+}
+
+.footer-logo-box {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+
+
+.footer-logo-box p {
+
+  width: 400px;
+  color: var(--Gray-600, #475467);
+
+  /* Text lg/Regular */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+
+}
+
+
+.footer-title a {
+  color: var(--Gray-500, #667085);
+  text-decoration: none;
+  /* Text md/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  
+
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+
+  margin-top: 16px;
+}
+
+.footer-links p {
+  color: #475467;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  cursor: pointer;
+
+
+}
+
+#footer-footer {
+
+  display: flex;
+  align-items: center;
+ 
+  gap: 64px;
+
+}
+
+.footer-copyright {
+  
+  color: #667085;
+  flex: 1 0 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 1112px;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
+  width: 264px;
+}
+
+.footer-title-download {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-title-download a {
+  align-self: stretch;
+  color: var(--Blue-dark-700, #004EEB);
+
+  /* Text md/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  /* 150% */
+  text-decoration: none;
+}
+.footer-title-download img{
+
+  display: flex;
+
+  padding: 5px;
+}

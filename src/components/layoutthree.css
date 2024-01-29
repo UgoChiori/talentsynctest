@@ -1,0 +1,144 @@
+.layoutthree-wrapper {
+    display: flex;
+    width: 1728px;
+    padding: 96px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.layoutthree-container {
+    display: flex;
+    width: 1408px;
+    padding: 0px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.layerthree-text {
+    width: 640px;
+    height: 556px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1 0 0;
+}
+
+.layerthree-text h2 {
+    width: 640px;
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    /* 136.364% */
+    letter-spacing: -0.88px;
+    margin-top: 0.5px;
+}
+
+.images {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.images-one {
+    border: 1px solid green;
+    display: flex;
+    
+    gap: 16px;
+}
+
+.images-two {
+    border: 1px solid blue;
+    gap: 16px;
+    display: flex;
+   
+
+
+}
+
+.sara-avi {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-bottom: 10px;
+    gap: 12px;
+}
+
+.sara-avi img {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D1E9FF;
+}
+
+.layout-three-footer {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 32px;
+
+
+}
+
+.sara-avi p {
+
+    /* align-self: stretch; */
+    color: var(--Gray-600, #475467);
+
+    /* Text lg/Regular */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    min-width: 412px;
+}
+
+#reviewer {
+    color: var(--Gray-600, #475467);
+
+    /* Text lg/Regular */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+}
+
+.arrows {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    cursor: pointer;
+}
+
+#sara {
+    align-self: stretch;
+    color: var(--Gray-900, #101828);
+
+    /* Text xl/Semibold */
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+}
