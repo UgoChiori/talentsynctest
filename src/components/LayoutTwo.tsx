@@ -7,11 +7,16 @@ const LayoutTwo: React.FC = () => {
       <div className="texts">
         <p className="clear-link-text">The ClearLink Advantage</p>
         <h1>Why choose ClearLink</h1>
+        
         <p className="clearlink-phrase">
           In a world where connection is everything, ClearLink takes the lead.
           Our cutting-edge video conferencing app offers:
         </p>
+        <div>
+          
+        </div>
       </div>
+      
       <div className="card-wrapper">
         <div className="cards">
           <div className="card-one">
